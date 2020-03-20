@@ -12113,7 +12113,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _highway = _interopRequireDefault(require("@dogstudio/highway"));
+var _highway = _interopRequireDefault(require("../node_modules/@dogstudio/highway/build/highway"));
 
 var _gsap = require("gsap");
 
@@ -12187,7 +12187,7 @@ var Fade = /*#__PURE__*/function (_Highway$Transition) {
 
 var _default = Fade;
 exports.default = _default;
-},{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.js","gsap":"node_modules/gsap/index.js"}],"js/index.js":[function(require,module,exports) {
+},{"../node_modules/@dogstudio/highway/build/highway":"node_modules/@dogstudio/highway/build/highway.js","gsap":"node_modules/gsap/index.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 var _highway = _interopRequireDefault(require("@dogstudio/highway"));
@@ -12229,7 +12229,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59274" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50467" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
